@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #6d4c41;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            display: inline-block;
+            width: 30%;
+            margin: 0 1.5%;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #6d4c41;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HAH</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section id="home">
+            <h2>Bienvenidos a HAH</h2>
+            <p>Descubre nuestros alfajores artesanales hechos con amor y los mejores ingredientes.</p>
+        </section>
+        <section id="products">
+            <h2>Nuestros Productos</h2>
+            <div class="product">
+                <img src="alfajor1.jpg" alt="Alfajor Clásico">
+                <h3>Alfajor Clásico</h3>
+                <p>Un clásico con dulce de leche y cobertura de chocolate.</p>
+                <p>Precio: $2.50</p>
+            </div>
+            <div class="product">
+                <img src="alfajor2.jpg" alt="Alfajor de Coco">
+                <h3>Alfajor de Coco</h3>
+                <p>Deliciosos alfajores cubiertos de coco rallado.</p>
+                <p>Precio: $2.75</p>
+            </div>
+            <div class="product">
+                <img src="alfajor3.jpg" alt="Alfajor Gourmet">
+                <h3>Alfajor Gourmet</h3>
+                <p>Rellenos con sabores únicos y exquisitos.</p>
+                <p>Precio: $3.00</p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a la producción de alfajores artesanales, utilizando recetas tradicionales y técnicas modernas para ofrecerte el mejor sabor.</p>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 HAH. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
